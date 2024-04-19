@@ -1,0 +1,20 @@
+
+$rounded: (
+  0: 0,
+  'sm': $border-radius-root / 2,
+  null: $border-radius-root,
+  'lg': $border-radius-root * 10,
+  'xl': $border-radius-root * 6,
+  'pill': 9999px,
+  'circle': 50%
+);
+
+$borders: (
+    0: 0,
+    null: thin,
+    thin: thin,
+    sm: 1px,
+    md: 2px,
+    lg: 4px,
+    xl: 8px
+)
